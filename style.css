@@ -1,0 +1,167 @@
+@font-face { font-family: Custom; src: url('Valorant.ttf'); } 
+
+body {
+	background-image: url(backgrounds/websitebackground3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+}
+
+a {
+	color: black;
+	font-family: Custom;
+}
+
+/*===Navigation Bar========================================*/
+.header {
+	padding: 30px;
+	background: #6495ed;
+	font-size: 23px;
+}
+.logo img {
+	margin: 10px;
+	margin-left: 20px;
+	position: absolute;
+	height: 65px;
+	width: 65px;
+}
+.logo2 {
+	display: none;
+	position: absolute;
+}
+.logo:hover img{
+	display: inline;
+}
+.nav {
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+a.nav:hover {
+  background-color: #b0e0e6;
+}
+
+/*===Shoe Title and Cards========================================*/
+.titleCard {
+	background-color: #6495ed;
+	color: black;
+	width :  250px;
+	height : 40px;
+	border-radius: 7px;
+	margin-left: 30px;
+	margin-top: 50px;
+	text-align: center;
+	font-family: Custom;
+	font-size: 30px;
+	text-decoration: underline;
+}
+.shoeCard {
+	background-color: #6495ed;
+	width :  200px;
+	height : 295px;
+	border-radius: 7px;
+	margin-left: 30px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: Custom;
+	text-align: center;
+	float: left;
+}
+.shoeImage {
+	height: 175px;
+	width: 175px;
+}
+.AddToCart {
+	background: black;
+	color: white;
+	border-radius: 7px;
+	font-size: 20px;
+	font-family: Custom;
+	cursor: pointer;
+}
+.AddToCart:hover {
+	border-style: solid;
+	border-color: White;
+}
+.AddToCart:active {
+	background: white;
+	color: black;
+}
+
+/*===Welcome Page ========================================*/
+.introduction {
+	background: #6495ed;
+	padding: 30px;
+	margin-left: 150px;
+	margin-top: 100px;
+	width :  500px;
+	height : 240px;
+	border-radius: 7px;
+	font-family: Custom;
+	float: left;
+}
+.airjordans {
+	height: 350px;
+	width: 350px;
+	float: left;
+	margin-top: 75px;
+	margin-right: 200px;
+}
+.button {
+	height: 50px;
+	width: 140px;
+	font-size: 20px;
+	background: #b0e0e6;
+	font-family: Custom;
+	border: none;
+	border-radius: 7px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.button:hover {
+	opacity: 0.5;
+}
+.button:active {
+	background-color: blue;
+}
+
+/*===Shop Menu ========================================*/
+.sportShoes {
+	
+	width :  300px;
+	height : 300px;
+	border-radius: 7px;
+	float: left;
+	margin-left: 110px;
+	margin-top: 100px;
+	cursor: pointer;
+}
+.shoes {
+	width: 300px;
+	height: 300px;
+}
+a.cardanim:hover {
+  opacity: 0.4;
+}
+
+/*===About Us Page ========================================*/
+.about {
+	background-color: #96ded1;
+	height: 350px;
+	width: 400px;
+	float: left;
+	margin-top: 75px;
+	border-radius: 7px;
+	border-style: solid;
+}
+.about ul li{
+	font-size: 20px;
+	list-style-type: none;
+	font-family: "Monaco", monospace;
+}
+.contactheader {
+	text-align: center;
+	text-decoration: underline;
+	font-family: Custom;
+}
